@@ -1,0 +1,615 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap");
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("../img/homepage.png") no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: "Oxanium";
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 64px !important;
+    line-height: 1.1 !important;
+    background: linear-gradient( 153.68deg, #606060 -9.8%, #d5d5d5 12.62%, #ffffff 37.07%, #d5d5d5 63.56%, #606060 88.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+p {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 1.1 !important;
+    color: #ffffff !important;
+}
+
+.main_btn {
+    padding: 15px 40px !important;
+    background: #00f090 !important;
+    border-radius: 10px !important;
+    font-family: "Oxanium";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #ffffff !important;
+}
+
+.transparent_btn {
+    padding: 15px 40px !important;
+    /* width: 166px;
+    height: 50px; */
+    border: 1px solid #00f090 !important;
+    border-radius: 10px !important;
+    font-family: "Oxanium";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    color: #ffffff !important;
+}
+
+
+/* header */
+
+header {
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+/* navbar */
+
+header nav .nav-link {
+    font-family: "Oxanium";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 1.2 !important;
+    color: #ffffff !important;
+    margin-right: 25px;
+}
+
+.login_btn {
+    padding: 15px 40px !important;
+    /* width: 122px;
+    height: 50px; */
+    background: #00f090 !important;
+    border-radius: 10px !important;
+    font-family: "Oxanium";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 1;
+    color: #ffffff !important;
+    margin-right: 10px;
+}
+
+.signup_btn {
+    padding: 15px 40px !important;
+    /* width: 132px;
+    height: 50px; */
+    border: 1px solid #00f090 !important;
+    border-radius: 10px !important;
+    font-family: "Oxanium";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 1;
+    color: #ffffff !important;
+}
+
+
+/* !navbar */
+
+.hero {
+    margin-top: 95px;
+    padding-left: 5%;
+    background: url("../img/header-bg.png") top no-repeat;
+    /* background-size: 100% 100%; */
+    border-radius: 10px !important;
+}
+
+
+/* .hero {
+  margin-top: 95px;
+  padding-left: 5%;
+  padding-bottom: 120px;
+  background: #221b71;
+  border-radius: 32px;
+} */
+
+.hero .right {
+    margin-bottom: 0px;
+    background: url("../img/dark-shadow-bg.png") no-repeat;
+    background-size: contain;
+    background-position: 0 0;
+}
+
+
+/* !header */
+
+
+/* investment */
+
+.offer {
+    background-size: contain;
+    margin-top: 100px;
+    padding-left: 9%;
+    padding-right: 9%;
+    margin-bottom: 120px;
+}
+
+.view_plan {
+    margin-bottom: 28px !important;
+    text-align: right;
+}
+
+.view_plan a {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 140% !important;
+    text-decoration-line: underline !important;
+    color: #ffffff !important;
+}
+
+
+/* !investment */
+
+
+/* investment_plan */
+
+.investment_plan {
+    background: url("../img/plan-bg.png") top center no-repeat;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.offer_box {
+    text-align: center;
+    padding: 65px 80px;
+    /* width: 407px; */
+    min-height: 379px;
+    background: linear-gradient(180deg, #211a72 0%, #0f076a 100%);
+    border-radius: 24px;
+    margin-bottom: 120px;
+}
+
+.plan_box {
+    background: url("../img/plan_box-bg.png") no-repeat;
+    background-size: cover;
+    padding: 50px 60px;
+    border-radius: 24px;
+}
+
+.plan_box h5 {
+    font-family: "Oxanium";
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 32px !important;
+    line-height: 1 !important;
+    color: #00f090 !important;
+}
+
+.plan_box .long_text {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 1.5 !important;
+    letter-spacing: 0.635em !important;
+    text-transform: capitalize;
+    color: #ffffff !important;
+}
+
+.plan_box h3 {
+    font-family: "Oxanium";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 36px !important;
+    line-height: 1;
+    background: linear-gradient( 153.68deg, #606060 -9.8%, #d5d5d5 12.62%, #ffffff 37.07%, #d5d5d5 63.56%, #606060 88.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+/* !investment_plan */
+
+
+/* ready */
+
+.ready {
+    background: url("../img/wave.png") no-repeat;
+    background-size: cover;
+    padding: 7% 5%;
+    margin-bottom: 143px;
+}
+
+.reday_content {
+    background: url("../img/ready-bg.png") no-repeat;
+    background-size: cover;
+}
+
+
+/* !ready */
+
+
+/* payment_system */
+
+.payment_system {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.payment_system .cost_box {
+    padding: 50px 50px;
+    width: 100%;
+    min-height: 252px;
+    background: linear-gradient(180deg, #211a72 0%, #0f076a 100%);
+    border-radius: 24px;
+    margin-bottom: 22px;
+    transition: 0.2s ease-in-out;
+    border: 1px solid transparent !important;
+}
+
+.payment_system .cost_box:hover {
+    border: 1px solid #00f090 !important;
+}
+
+.payment_system .cost_box h3 {
+    font-family: "Oxanium";
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 36px !important;
+    line-height: 1 !important;
+    background: linear-gradient( 153.68deg, #606060 -9.8%, #d5d5d5 12.62%, #ffffff 37.07%, #d5d5d5 63.56%, #606060 88.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+/* !payment_system */
+
+
+/* transactions */
+
+.transactions {
+    padding-left: 9%;
+    padding-right: 9%;
+    margin-top: 162px;
+    margin-bottom: 180px;
+    background: url("../img/transaction-bg.png") no-repeat;
+}
+
+.transactions p {
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.transactions_box_heading {
+    /* min-height: 105px !important;
+    background: #22222c;
+    border-radius: 24px;
+    padding-top: 2.5%; */
+    margin-top: 56px;
+}
+
+.transactions_box_heading .heading_text {
+    text-align: center;
+    font-family: "Oxanium";
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 22.3418px !important;
+    line-height: 1 !important;
+    color: #6c6c6e !important;
+    min-height: 105px !important;
+    background: #22222c;
+    border-radius: 24px;
+    padding-top: 2.5%;
+}
+
+.transactions_box {
+    background: #22222c;
+    border: 1px solid #00f090;
+    border-radius: 24px;
+    padding: 2% 5%;
+    text-align: center;
+}
+
+.transactions_box h5 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 22.3418px !important;
+    line-height: 1 !important;
+    color: #ffffff !important;
+}
+
+.transactions_box h6 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 19.1501px !important;
+    line-height: 1 !important;
+    color: #6c6c6e !important;
+}
+
+.transactions .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #00f090 !important;
+}
+
+
+/* !transactions */
+
+
+/* affiliate */
+
+.affiliate {
+    padding-left: 7%;
+    padding-right: 8%;
+    padding-bottom: 260px;
+    background: url("../img/bg-another.png") center bottom no-repeat;
+    position: relative;
+}
+
+.affiliate .affiliate_img {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
+
+.affiliate .affiliate_box {
+    text-align: center;
+    padding: 60px 40px;
+    height: 406.06px;
+    background: linear-gradient(180deg, #211a72 0%, #0f076a 100%);
+    border-radius: 22px;
+    margin-top: 80px;
+}
+
+.affiliate .affiliate_box h2 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 64px !important;
+    line-height: 1 !important;
+    color: #00f090 !important;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.affiliate .affiliate_box h5 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 1 !important;
+    color: #ffffff !important;
+}
+
+.affiliate .affiliate_box img {
+    margin-top: -90px;
+}
+
+
+/* !affiliate */
+
+
+/* footer */
+
+footer {
+    margin-top: 200px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 50px;
+}
+
+footer .footer_box {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+footer a {
+    font-family: "Oxanium";
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    text-align: center;
+    letter-spacing: 0.5px !important;
+    color: #f2f2f2 !important;
+    text-decoration: none;
+}
+
+.footer_box h3 {
+    font-family: "Oxanium";
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 42px !important;
+    line-height: 1.4 !important;
+    text-transform: uppercase !important;
+    background: linear-gradient(90deg, #5e9cc8 0%, #63bcc7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.footer_box .footer_nav a {
+    font-family: "Oxanium";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 1 !important;
+    letter-spacing: 0.2px !important;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.footer_box .footer_nav {
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+footer .copyright {
+    margin-top: 31px;
+    /* margin-bottom: 300px; */
+}
+
+footer .footer_box {
+    min-height: 180px;
+}
+
+footer .footer_logo {
+    min-height: 180px;
+    border-left: 1px solid #ffffff !important;
+    border-right: 1px solid #ffffff !important;
+    text-align: center;
+    padding-top: 70px;
+}
+
+footer .get_text {
+    padding-top: 32px;
+}
+
+footer .footer_right {
+    border-left: 1px solid #ffffff !important;
+    border-right: 1px solid #ffffff !important;
+    text-align: center;
+    min-height: 180px;
+}
+
+
+/* footer */
+
+.owl-carousel .owl-nav button.owl-prev {
+    top: 90px;
+    position: absolute;
+    left: -30px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 90px;
+    right: -30px;
+}
+
+
+/* for mobile */
+
+@media screen and (max-width: 999px) {
+    h1 {
+        font-size: 46px !important;
+    }
+    .hero {
+        background-size: cover;
+        padding-top: 50px;
+    }
+    .offer_box {
+        margin-bottom: 50px;
+    }
+    .plan_box {
+        padding: 40px !important;
+    }
+    .plan_box h5 {
+        font-size: 24px !important;
+    }
+    .plan_box h1 {
+        font-size: 36px !important;
+    }
+    .plan_box .left {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .plan_box h3 {
+        font-size: 24px !important;
+    }
+    .plan_box .main_btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        top: 40%;
+    }
+    .reday_content {
+        border-radius: 40px;
+        padding-bottom: 70px;
+    }
+    .transactions_box {
+        justify-content: center;
+    }
+    .affiliate {
+        background: none;
+        padding-bottom: 50px;
+    }
+    .affiliate .affiliate_img {
+        position: initial;
+        margin-left: -30px;
+    }
+    footer {
+        margin-top: 100px;
+    }
+    footer a img {
+        margin-bottom: 15px;
+    }
+}
+
+
+/* !for mobile */
+
+
+/* for laptop */
+
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
+    h1 {
+        font-size: 58px !important;
+    }
+    p {
+        font-size: 18px !important;
+        line-height: 1.2 !important;
+    }
+    .offer_box {
+        padding: 60px 70px !important;
+    }
+    .plan_box h3,
+    .plan_box h5 {
+        font-size: 24px !important;
+    }
+    .plan_box h1 {
+        font-size: 46px !important;
+    }
+    .plan_box .long_text {
+        line-height: 1 !important;
+        font-size: 12px !important;
+    }
+    .transactions_box_heading .heading_text {
+        padding-top: 3.5% !important;
+    }
+    .affiliate .affiliate_img {
+        bottom: -10px;
+    }
+}
+
+
+/* !for laptop */
